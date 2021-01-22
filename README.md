@@ -1,2 +1,2 @@
-# amcharts-semi-circle-pie-chart
+# amcharts-charts-library
 AMCHARTS Charts Library
