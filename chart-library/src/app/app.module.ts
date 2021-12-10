@@ -12,6 +12,7 @@ import { GaugeComponent } from './components/charts/gauge/gauge.component';
 import { TwoLevelPieChartComponent } from './components/charts/two-level-pie-chart/two-level-pie-chart.component';
 import { StackedWaterfallChartComponent } from './components/charts/stacked-waterfall-chart/stacked-waterfall-chart.component';
 import { PictorialStackedChartComponent } from './components/charts/pictorial-stacked-chart/pictorial-stacked-chart.component';
+import { StackedWaterfallLineChartComponent } from './components/charts/stacked-waterfall-line-chart/stacked-waterfall-line-chart.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PictorialStackedChartComponent } from './components/charts/pictorial-st
     GaugeComponent,
     TwoLevelPieChartComponent,
     StackedWaterfallChartComponent,
-    PictorialStackedChartComponent
+    PictorialStackedChartComponent,
+    StackedWaterfallLineChartComponent
   ],
   imports: [
     BrowserModule,

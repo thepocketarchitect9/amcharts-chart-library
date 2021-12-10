@@ -7,6 +7,8 @@ import { StackedWaterfallChartComponent } from './components/charts/stacked-wate
 import { TwoLevelPieChartComponent } from './components/charts/two-level-pie-chart/two-level-pie-chart.component';
 import { GaugeComponent } from './components/charts/gauge/gauge.component';
 import { PictorialStackedChartComponent } from './components/charts/pictorial-stacked-chart/pictorial-stacked-chart.component';
+import { StackedWaterfallLineChartComponent } from './components/charts/stacked-waterfall-line-chart/stacked-waterfall-line-chart.component';
+
 
 import { Page404Component } from './components/page404/page404.component';
 import { ChartsComponent } from './components/charts/charts.component';
@@ -18,6 +20,7 @@ const routes: Routes = [
   { path: 'chart-pictorial-stacked-chart', component: PictorialStackedChartComponent, data: { title: 'Pictorial Stacked Chart' }},
   { path: 'chart-stacked-waterfall-chart', component: StackedWaterfallChartComponent, data: { title: 'Stacked Waterfall Chart' }},
   { path: 'chart-two-level-pie-chart', component: TwoLevelPieChartComponent, data: { title: 'Two Level Pie Chart' }},
+  { path: 'stacked-waterfall-line-chart', component: StackedWaterfallLineChartComponent, data: { title: 'Stacked Waterfall Line Chart' }},
   { path: '', pathMatch: 'full', redirectTo: 'charts-home'}, 
   { path: 'charts-home', component: ChartsComponent },
   { path: '**', component: Page404Component, data: { title: '404' }},
